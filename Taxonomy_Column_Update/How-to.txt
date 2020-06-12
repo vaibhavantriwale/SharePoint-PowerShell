@@ -1,0 +1,8 @@
+The two scripts provided will traverse through each site collection, site, list/library, and checks for "TaxonomyFieldType" or "TaxonomyFieldTypeMulti" fields and removes any orphaned value in the column for each items/Document.
+This is basically helpful while planning migration so that before migration remove all orphaned taxonomy field values. This is successfully tested on SharePoint 2013 and 2016 farms.
+
+1. Taxonomy_Column_Update_Site_Collection.ps1 for performing the activity on a particular site collection.
+
+2. Taxonomy_Column_Update_Web_Application.ps1 for performing the activity in entire Web application.
+
+This is also helpful if you are assigned with task to deleteall teh orphaned taxonomy values from site collection/web application.
